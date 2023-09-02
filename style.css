@@ -1,0 +1,63 @@
+{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max width: 100%;
+}
+body{
+    font-family: 'Barlow',sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color: inherit
+}
+header{
+    background-image: url(https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef);
+height: 100%;
+background-position: center;
+background-size: cover;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.flex-col-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+}  
+#about{
+    display: flex;
+    flex-wrap: wrap;
+}  
+#about>*{
+    flex: 0 1 30%;
+
+}
+#about div:nth-child(5){
+    background-image: url(./lvj0udxz21q6bicxkysz.jpg);
+background-size: cover;
+
+#about div:nth-child(6){
+    background-image: url(./lvj0udxz21q6bicxkysz.jpg);
+background-size: cover;
+}
+#wrap div{
+    flex: 1 1 30%;
+}
+#service>img{
+    flex: 1 1 40%;
+}
